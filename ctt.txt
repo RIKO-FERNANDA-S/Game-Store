@@ -1,0 +1,21 @@
+Background Utama: #1E1E1E
+Header/Footer: Gradien dari #6A0DAD ke #FF007F
+Button Utama: #00BFFF
+Button Sekunder: #FF1493
+Teks Utama: #FFFFFF
+Teks Sekunder: #CCCCCC
+Accent Lines/Borders: #FFD700
+
+
+Primary Font (Header/Title):
+
+Montserrat: Montserrat adalah font sans-serif modern yang bersih dan mudah dibaca. Cocok untuk header dan judul karena tampilannya yang tegas dan profesional.
+Bebas Neue: Bebas Neue adalah font sans-serif yang tebal dan ramping, sangat cocok untuk judul dan elemen yang ingin Anda tonjolkan.
+Secondary Font (Body Text):
+
+Open Sans: Open Sans adalah font sans-serif yang sangat populer karena keterbacaannya yang baik di berbagai ukuran. Cocok untuk teks tubuh karena mudah dibaca dan modern.
+Roboto: Roboto adalah font sans-serif yang dirancang untuk kenyamanan membaca di layar, memberikan tampilan yang bersih dan profesional.
+Accent Font (CTA/Button):
+
+Raleway: Raleway adalah font sans-serif yang ramping dan elegan, cocok untuk tombol dan elemen interaktif lainnya.
+Poppins: Poppins adalah font sans-serif yang modern dan memiliki bentuk yang sedikit bulat, memberikan tampilan yang friendly dan inviting.

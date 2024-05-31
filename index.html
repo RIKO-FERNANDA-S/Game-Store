@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TITLE -->
+    <link rel="shortcut icon" type="x-icon" href="img/RQY Transparant 3.png" />
+    <title>rqystore</title>
+    <!-- TITLE -->
+
+    <!-- STYLES -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- STYLES -->
+
+    <!-- ICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- ICONS -->
+  </head>
+  <body class="flex w-full h-full">
+
+
+    <aside
+    id="nav-side"
+      class="nav-side p-5 w-1/6 h-screen flex flex-col items-center sticky top-0 text-[#FFFFFF] max-md:hidden max-md:absolute max-md:w-1/2 max-md:h-full max-md:z-10"
+    >
+    <div class="h-full w-auto max-md:mt-10"> 
+      <img class="w-full h-auto" src="./img/logo-nav.png" />
+      <div class="text-nav mt-12 pl-3 gap-7 w-full grid items-start text-2xl">
+        <a href="#" class="hover:text-[#d2dcff]">Home</a>
+        <a href="#about" class="hover:text-[#d2dcff]">About Us</a>
+        <a href="#price" class="hover:text-[#d2dcff]">Price List</a>
+      </div>
+      <div class="contact inset-x-0 bottom-3 absolute flex flex-col items-center">
+        <p class="text-xl">Contact Us :</p>
+        <div class="icons mt-4 w-full flex gap-3 justify-center text-4xl">
+          <a href="https://www.instagram.com/reqyu.store?igsh=MTF4YnI2emU4NGR6dw== "><i class="bx bxl-instagram hover:text-[#d2dcff]"></i></a>
+          <a href="https://wa.me/6285645777865"><i class="bx bxl-whatsapp hover:text-[#d2dcff]"></i></a>
+          <a href="#"><i class='bx bxl-tiktok hover:text-[#d2dcff]'></i></a>
+        </div>
+      </div>
+    </div>
+    </aside>
+
+    <main class="w-full h-max bg-[#1E1E1E]">
+      <nav id="nav-top" class="nav-top w-full px-2 py-4 fixed md:hidden">
+        <div class="flex justify-center items-center px-3">
+          <img src="./img/RQY Transparant 3.png" class=" max-md:w-[5rem]">
+        </div>
+      </nav>
+  
+      <section id="home" class="h-max w-full  flex items-center flex-col mb-10">
+        <div class="img-home flex justify-center mt-8 w-11/12 bg-white  rounded-xl border-4">
+          <div class=" h-[28rem] ">
+          </div>
+        </div>
+
+        <div class="w-full h-max mt-5">
+          <h1 class="text-[#FFFFFF] font-extrabold ml-12 text-3xl mt-10">Top Up Game : </h1>
+          <div class="flex justify-center flex-wrap gap-7 mt-5 max-md:justify-start max-md:pl-8">
+            <a href="#price">
+              <figure class="flex w-96 p-2 rounded rounded-[20px] cursor-pointer hover:outline hover:outline-offset-2 hover:outline-[#FFD700] ease-in duration-200 max-md:w-[36rem]">
+                <img src="./img/img-game/unnamed.webp" alt="" class="w-24 border border-[#bfa100] rounded rounded-[20px]">
+                <div class="flex flex-col justify-center ml-4 text-lg">
+                  <figcaption class=" text-[#FFFFFF] font-extrabold">Mobile Legend</figcaption>
+                  <figcaption class=" text-[#CCCCCC]">Montoon</figcaption>
+                </div>
+              </figure>
+            </a>
+
+            <a href="#price">
+            <figure class="flex  w-96 p-2 rounded rounded-[20px] cursor-pointer hover:outline hover:outline-offset-2 hover:outline-[#FFD700] ease-in duration-200 max-md:w-[36rem]">
+              <img src="./img/img-game/unnamed.png" alt="" class="w-24 border border-[#bfa100] rounded rounded-[20px]">
+              <div class="flex flex-col justify-center ml-4 text-lg">
+                <figcaption class=" text-[#FFFFFF] font-extrabold">Free Fire</figcaption>
+                <figcaption class=" text-[#CCCCCC]">Garena</figcaption>
+              </div>
+            </figure>
+            </a>
+
+            <a href="#price">
+              <figure class="flex  w-96 p-2 rounded rounded-[20px] cursor-pointer hover:outline hover:outline-offset-2 hover:outline-[#FFD700] ease-in duration-200 max-md:w-[36rem]">
+                <img src="./img/img-game/pubg.webp" alt="" class="w-24 border border-[#bfa100] rounded rounded-[20px]">
+                <div class="flex flex-col justify-center ml-4 text-lg">
+                  <figcaption class=" text-[#FFFFFF] font-extrabold">PUBG</figcaption>
+                  <figcaption class=" text-[#CCCCCC]">Tencent Games</figcaption>
+                </div>
+              </figure>
+            </a>
+
+            <a href="https://wa.me/6285645777865">
+              <figure class="flex  w-96 p-2 rounded rounded-[20px] cursor-pointer hover:outline hover:outline-offset-2 hover:outline-[#FFD700] ease-in duration-200 max-md:w-[36rem]">
+                <img src="./img/img-game/hok.png" alt="" class="w-24 border border-[#bfa100] rounded rounded-[20px]">
+                <div class="flex flex-col justify-center ml-4 text-lg">
+                  <figcaption class=" text-[#FFFFFF] font-extrabold">Honor Of Kings</figcaption>
+                  <figcaption class=" text-[#CCCCCC]">Tencent Games</figcaption>
+                </div>
+              </figure>
+            </a>
+
+            <a href="https://wa.me/6285645777865">
+              <figure class="flex  w-96 p-2 rounded rounded-[20px] cursor-pointer hover:outline hover:outline-offset-2 hover:outline-[#FFD700] ease-in duration-200 max-md:w-[36rem]">
+                <img src="./img/img-game/codm.png" alt="" class="w-24 border border-[#bfa100] rounded rounded-[20px]">
+                <div class="flex flex-col justify-center ml-4 text-lg">
+                  <figcaption class=" text-[#FFFFFF] font-extrabold">Call Of Duty</figcaption>
+                  <figcaption class=" text-[#CCCCCC]">Garena</figcaption>
+                </div>
+              </figure>
+            </a>
+
+            <a href="https://wa.me/6285645777865">
+              <figure class="flex  w-96 p-2 rounded rounded-[20px] cursor-pointer hover:outline hover:outline-offset-2 hover:outline-[#FFD700] ease-in duration-200 max-md:w-[36rem]">
+                <img src="./img/img-game/coc.jpeg" alt="" class="w-24 border border-[#bfa100] rounded rounded-[20px]">
+                <div class="flex flex-col justify-center ml-4 text-lg">
+                  <figcaption class=" text-[#FFFFFF] font-extrabold">Clash Of Clan</figcaption>
+                  <figcaption class=" text-[#CCCCCC]">Supercell</figcaption>
+                </div>
+              </figure>
+            </a>
+
+             </div>
+        </div>
+      </section>
+
+      <section id="about" class="h-max w-full flex py-20 ">
+        <article class=" flex flex-wrap items-center pl-11 gap-12 w-full max-md:justify-center max-md:p-0">
+          <figure class="w-2/5 h-auto border border-8 border-[#FF1493] roudnded rounded-lg max-md:w-4/5 ">
+            <img src="./img/Poster/Poster Jasa Store.jpg" alt="poster jasa" class="">
+          </figure>
+          <div class="text-white w-1/2 justify-center h-[75%] flex flex-col max-md:w-11/12 max-md:h-max">
+            <p class="text-xl mb-5 border-b-4 border-[#CCCCCC] font-bold text-[#CCCCCC] w-max pr-4 py-1">About Us</p>
+            <h1 class="text-7xl  font-extrabold max-md:text-5xl">Reqyu Store</h1>
+            <p class="text-2xl text-[#CCCCCC] mt-10">Kami menawarkan harga yang kompetitif untuk semua layanan kami. 
+              Nikmati pengalaman game Anda tanpa harus merogoh kocek terlalu dalam</p>
+              <a href="https://www.instagram.com/reqyu.store?igsh=MTF4YnI2emU4NGR6dw== ">
+                <button class="mt-24 bg-[#6A0DAD] rounded rounded-xl px-8 py-5 text-lg w-max hover:scale-110 hover:ease-in-out hover:duration-300 max-md:mt-10">View More</button>
+              </a>
+          </div>
+        </article>
+      </section>
+
+      <section id="price" class="h-max w-full py-10  flex flex-col  items-center max-md:mt-10">
+        <h1 class="text-7xl mb-16 px-1 font-extrabold flex h-20 text-[#CCCCCC] hover:border-b-4 hover:border-b-[#CCCCCC]">Pricelist</h1>
+        <div class="flex justify-center gap-8 flex-wrap ">
+ 
+            <img src="./img/Poster/pricelist3.jpg" alt="" class=" h-auto w-full md:w-[45%]">
+
+            <img src="./img/Poster/pricelist1.jpg" alt="" class=" h-auto w-full md:w-[45%]">
+
+            <img src="./img/Poster/pricelist2.jpg" alt="" class=" h-auto w-full md:w-[45%]">
+ 
+            <img src="./img/Poster/pricelist4.jpg" alt="" class=" h-auto w-full md:w-[45%]">
+
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer h-max py-2">
+        <div class="flex items-center justify-around flex-wrap">
+            <img src="./img/logo-nav.png" class="w-1/5 max-md:w-1/3">
+            <div class="border-2 h-20 border-[#bbdd85fa] w-1 content-none max-md:w-11/12 max-md:h-1 max-md:mb-5"></div>
+          <p class="text-xl font-medium text-[#FFFFFF]">Copyright © 2024 Reqyu Store.</p>
+        </div>
+      </footer>
+    </main>
+
+
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
